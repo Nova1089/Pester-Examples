@@ -35,8 +35,6 @@ When (Context): the event that triggers the scenario;
 Then (It Should): the expected outcome, in one or more clauses.
 
 You can have any number of describe, context, it, and should constructs.
-I like to use 1 describe per function and many it blocks inside with many shoulds inside of those.
-"It should do this, it should do that, etc.".
 
 Scenario 1: Items returned for refund should be added to inventory.
 Given that a customer previously bought a black sweater from me
